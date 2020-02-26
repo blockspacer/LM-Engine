@@ -5,7 +5,7 @@ set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_BINARY_DIR})
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_SHARED_LIBRARY_PREFIX "")
 
-find_package(lmengine REQUIRED)
+find_package(lmng REQUIRED)
 find_package(lmeditor REQUIRED)
 find_package(lmtk REQUIRED)
 find_package(lmhuv REQUIRED)
@@ -20,7 +20,7 @@ add_library(
 target_link_libraries(
   sample_interface
   INTERFACE
-  lmengine::lmengine
+  lmng::lmng
   lmtk::lmtk
 )
 

@@ -4,7 +4,7 @@
 
 #include <yaml-cpp/yaml.h>
 
-#include <lmengine/serialisation.h>
+#include <lmng/serialisation.h>
 
 namespace lmeditor
 {

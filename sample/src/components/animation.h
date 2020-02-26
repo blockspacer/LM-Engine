@@ -5,7 +5,7 @@
 #include <Eigen/Eigen>
 #include <entt/entt.hpp>
 
-#include <lmengine/named_type.h>
+#include <lmng/named_type.h>
 
 struct character_skeleton
 {

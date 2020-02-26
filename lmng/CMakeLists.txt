@@ -1,4 +1,4 @@
-project(lmengine)
+project(lmng)
 
 if ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "GNU")
   set(CMAKE_CXX_STANDARD 17)
@@ -16,7 +16,7 @@ find_package(yaml-cpp REQUIRED)
 find_package(Catch2 REQUIRED)
 
 add_library(
-  lmengine
+  lmng
   SHARED
 
   src/reflection.cpp
@@ -29,14 +29,14 @@ add_library(
 )
 
 target_include_directories(
-  lmengine
+  lmng
 
   PUBLIC
   include
 )
 
 target_link_libraries(
-  lmengine
+  lmng
 
   PUBLIC
   lmlib::lmlib
@@ -47,24 +47,24 @@ target_link_libraries(
 )
 
 if (MSVC)
-  target_compile_definitions(lmengine PRIVATE _ENABLE_EXTENDED_ALIGNED_STORAGE)
+  target_compile_definitions(lmng PRIVATE _ENABLE_EXTENDED_ALIGNED_STORAGE)
 endif()
 
 add_executable(
-  test_lmengine
-  src/test_lmengine.cpp
+  test_lmng
+  src/test_lmng.cpp
   src/test_transform.cpp
 )
 
 target_link_libraries(
-  test_lmengine
+  test_lmng
   PRIVATE
   Catch2::Catch2
-  lmengine
+  lmng
 )
 
-add_test(NAME lmengine COMMAND test_lmengine)
+add_test(NAME lmng COMMAND test_lmng)
 
 if(MINGW)
-  target_compile_options(lmengine PRIVATE "-Wa,-mbig-obj")
+  target_compile_options(lmng PRIVATE "-Wa,-mbig-obj")
 endif()

@@ -8,7 +8,7 @@ else ()
   set(CMAKE_CXX_STANDARD 20)
 endif ()
 
-find_package(lmengine REQUIRED)
+find_package(lmng REQUIRED)
 find_package(lmgl REQUIRED)
 find_package(lmlib REQUIRED)
 find_package(lmpl REQUIRED)
@@ -82,7 +82,7 @@ target_link_libraries(
 
   PUBLIC
 
-  lmengine::lmengine
+  lmng::lmng
   lmgl::lmgl
   lmlib::lmlib
   lmpl::lmpl

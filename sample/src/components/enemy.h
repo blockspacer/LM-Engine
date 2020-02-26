@@ -1,6 +1,6 @@
 #pragma once
 
-#include <lmengine/named_type.h>
+#include <lmng/named_type.h>
 
 struct enemy_component
 {

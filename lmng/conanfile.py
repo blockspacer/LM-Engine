@@ -1,8 +1,8 @@
 from conans import ConanFile, CMake, tools
 
 
-class LmengineConan(ConanFile):
-    name = "lmengine"
+class LmngConan(ConanFile):
+    name = "lmng"
     version = "0.0.1"
     settings = "os", "compiler", "build_type", "arch"
     generators = "cmake_find_package"
@@ -21,4 +21,4 @@ class LmengineConan(ConanFile):
         self.copy('*.dll', src='bin')
 
     def package_info(self):
-        self.cpp_info.libs = ['lmengine']
+        self.cpp_info.libs = ['lmng']

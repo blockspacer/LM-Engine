@@ -3,10 +3,10 @@
 #include <entt/meta/meta.hpp>
 #include <fmt/format.h>
 
-#include <lmengine/name.h>
-#include <lmengine/reflection.h>
 #include <lmlib/enumerate.h>
 #include <lmlib/variant_visitor.h>
+#include <lmng/name.h>
+#include <lmng/reflection.h>
 #include <lmtk/text_editor.h>
 #include <lmtk/text_layout.h>
 #include <lmtk/vlayout.h>

@@ -2,7 +2,7 @@
 
 #include <entt/entt.hpp>
 
-#include <lmengine/name.h>
+#include <lmng/name.h>
 #include <lmtk/vlayout.h>
 
 #include "entity_list.h"

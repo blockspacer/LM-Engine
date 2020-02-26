@@ -1,7 +1,7 @@
 #pragma once
 
 #include "app.h"
-#include <lmengine/name.h>
+#include <lmng/name.h>
 
 namespace lmeditor
 {

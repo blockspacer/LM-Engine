@@ -1,7 +1,7 @@
 #pragma once
 #include <entt/entt.hpp>
 
-#include <lmengine/physics.h>
+#include <lmng/physics.h>
 #include <lmtk/lmtk.h>
 
 class rigid_bodies_battle

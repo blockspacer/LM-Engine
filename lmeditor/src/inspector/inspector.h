@@ -3,7 +3,7 @@
 #include <entt/entity/registry.hpp>
 #include <entt/meta/meta.hpp>
 #include <lmeditor/inspector.h>
-#include <lmengine/reflection.h>
+#include <lmng/reflection.h>
 #include <lmtk/char_field.h>
 #include <lmtk/lmtk.h>
 #include <lmtk/shapes.h>

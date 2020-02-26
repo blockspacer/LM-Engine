@@ -5,9 +5,9 @@
 #include <entt/entity/fwd.hpp>
 #include <lmeditor/map_editor.h>
 #include <lmeditor/map_editor_events.h>
-#include <lmengine/physics.h>
-#include <lmengine/shapes.h>
-#include <lmengine/transform.h>
+#include <lmng/physics.h>
+#include <lmng/shapes.h>
+#include <lmng/transform.h>
 #include <variant>
 
 namespace lmeditor

@@ -1,10 +1,10 @@
 #include "visual.h"
 #include "rendering/shapes.h"
 
-#include <lmengine/camera.h>
-#include <lmengine/physics.h>
 #include <lmhuv.h>
 #include <lmhuv/box.h>
+#include <lmng/camera.h>
+#include <lmng/physics.h>
 
 namespace lmhuv::internal
 {

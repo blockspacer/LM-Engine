@@ -1,6 +1,6 @@
 #include "rigid_bodies_battle.h"
 
-#include <lmengine/transform.h>
+#include <lmng/transform.h>
 
 #include "../components/enemy.h"
 #include "../components/protagonist.h"

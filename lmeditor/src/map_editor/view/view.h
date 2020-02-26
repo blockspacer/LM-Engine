@@ -11,12 +11,12 @@
 
 #include <lmeditor/command_help.h>
 #include <lmeditor/map_editor.h>
-#include <lmengine/physics.h>
-#include <lmengine/shapes.h>
-#include <lmengine/transform.h>
 #include <lmgl/lmgl.h>
 #include <lmhuv.h>
 #include <lmlib/variant_visitor.h>
+#include <lmng/physics.h>
+#include <lmng/shapes.h>
+#include <lmng/transform.h>
 #include <lmtk/lmtk.h>
 #include <lmtk/shapes.h>
 #include <lmtk/text_editor.h>

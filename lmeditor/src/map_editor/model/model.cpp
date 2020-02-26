@@ -2,10 +2,10 @@
 
 #include <range/v3/algorithm/find_if.hpp>
 
-#include <lmengine/name.h>
-#include <lmengine/physics.h>
-#include <lmengine/reflection.h>
 #include <lmlib/eigen.h>
+#include <lmng/name.h>
+#include <lmng/physics.h>
+#include <lmng/reflection.h>
 #include <range/v3/view/join.hpp>
 
 namespace lmeditor

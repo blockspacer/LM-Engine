@@ -4,8 +4,8 @@
 #include <fmt/format.h>
 #include <range/v3/action/erase.hpp>
 
-#include <lmengine/name.h>
-#include <lmengine/reflection.h>
+#include <lmng/name.h>
+#include <lmng/reflection.h>
 
 namespace lmeditor
 {
